@@ -1,0 +1,15 @@
+﻿بررسی,نتیجه,محدودیت/مدرک
+بریف فارسی,خوانده شد؛ منبع اصلی نیازمندی‌ها,ROSHANA_MASTER_PROJECT_CONTEXT_COMPLETE_FA.md
+بریف انگلیسی,برای cross-check مرور شد؛ منبع مستقل شمرده نشد,ROSHANA_MASTER_PROJECT_CONTEXT_COMPLETE_EN.md
+سه فونت Abar WOFF2,هر سه خوانده و برای PDF تبدیل موقت شدند,Regular / SemiBold / Bold
+دسترسی بازار/رقبا,۶ دوسیه؛ ورود به حساب‌های خصوصی انجام نشد,جزییات در PDF و source register
+ماتریس,۲۱۰/۲۱۰ خانه دارای وضعیت صریح,۶ رقیب × ۳۵ بُعد؛ ۰ خانه خالی
+دسته‌بندی شواهد,"{""مستند رسمی"": 98, ""پس از جست‌وجوی مشخص یافت نشد"": 44, ""در دسترس نبود"": 66, ""مشاهده مستقیم"": 2}",مستند رسمی / در دسترس نبود / پس از جست‌وجوی مشخص یافت نشد
+PDF,باز و قابل‌خواندن با PyMuPDF,"83 صفحه؛ {'format': 'PDF 1.4', 'title': 'بنچمارک رقابتی روشنا — گزارش فارسی', 'author': 'تیم پژوهش محصول روشنا', 'subject': 'پژوهش رقابتی، تجربه کاربری و توصیه محصول برای روشنا', 'keywords': '', 'creator': '(unspecified)', 'producer': 'ReportLab PDF Library - (opensource)', 'creationDate': ""D:20261029182845+00'00'"", 'modDate': ""D:20261029182845+00'00'"", 'trapped': '', 'encryption': None}"
+Abar embedding,AAAAAA+AbarLowFaNum-Bold: تعبیه شده؛ AAAAAA+AbarLowFaNum-Regular: تعبیه شده؛ AAAAAA+AbarLowFaNum-SemiBold: تعبیه شده,استخراج سه subset font از PDF با PyMuPDF؛ pdffonts/pdfinfo در محیط نصب نبودند
+نمونه‌های رندر,جلد، TOC، dossier، matrix، journey، منابع به PNG و مشاهده شدند,بازبینی تک‌تک صفحات انجام نشد
+RTL/shaping,در نمونه‌ها شکل‌دهی فارسی و چیدمان RTL دیده شد,استخراج PDF به صورت presentation forms/ترتیب بصری؛ screen reader/منطق استخراج تضمین نیست
+لینک‌ها,لینک‌های PDF داخلی و URLهای منابع اضافه شدند,crawler مقصد همه لینک‌ها اجرا نشد
+تصاویر رقبا,هیچ screenshot رقبا در گزارش نیست؛ از نمودار بازسازی‌شده/توضیح استفاده شد,عدم دسترسی به محیط تصویری/حساب
+تصمیم‌های باز,OQ-01 تا OQ-13 و ضمیمه مفقود/تعارض صفحه‌ها حفظ شد,بدون تصمیم‌سازی پنهان
+صفحات/metadata,"metadata PDF 1.4, title, creation date؛ 83 صفحه",PyMuPDF؛ pdfinfo در دسترس نبود
